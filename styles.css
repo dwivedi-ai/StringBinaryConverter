@@ -1,0 +1,53 @@
+body {
+    font-family : "Roboto Mono";
+    margin: 0px;
+}
+
+#head {
+    background-color: crimson;
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#container {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#str {
+    margin: 20px;
+    width : 500px;
+    font-size: 25px;
+    overflow: auto;
+    border-radius: 50px;
+    border-bottom: 3px solid crimson;
+    border-top: 0.5px solid crimson;
+    border-left: 0.5px solid crimson;
+    border-right: 0.5px solid crimson;
+    padding-left: 10px;
+    padding-right: 8px;
+}
+#sub {
+    font-size: 25px;
+    background-color: crimson;
+    color: whitesmoke;
+    border-radius: 50px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+ #ans {
+     overflow: scroll;
+ }
+
+#footer {
+position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: crimson;
+   color: whitesmoke;
+   font-size: 20px;
+   padding: 10px;
+   text-align: center;
+}
